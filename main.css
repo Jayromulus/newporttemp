@@ -1,0 +1,81 @@
+.row {
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    color:white;
+    background-color: #5a5a5a;
+    overflow-x: hidden
+    /* background-color: #ff99f7; */
+}
+
+.col-3 {
+    height: 40vh;
+    padding: 0
+}
+
+.ghibli {
+    background: url('./assets/ghibli.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.netflix {
+    background: url('./assets/netflix.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.mashr {
+    background: url('./assets/mashr.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.storefront {
+    background: url('./assets/storefront.png');
+    background-size: cover;
+    background-position: center
+}
+
+.info-cover {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.info-cover:hover {
+    background-color: rgba(255, 100, 242, .7)
+}
+
+#geroimg, #flahimg {
+    vertical-align: baseline;
+    margin-right: 1%;
+}
+
+.display-4 {
+    white-space: nowrap;
+    /* margin: auto; */
+    font-size: 5em;
+    line-height: 6.5em;
+    /* when page loads */
+    /* maybe make it animate outwards when you scroll down */
+    color: transparent;
+    position: absolute; 
+    /* margin-left:-5%; */
+    /* make it animate to the right color and position relative, also add margin auto */
+}
+
+#geroimg {
+    margin-left: -24.67%
+    /* make it animate to have margin 0 */
+}
+
+#pleasecenter {
+    margin: auto;
+
+}
+
