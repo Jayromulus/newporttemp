@@ -70,12 +70,15 @@ html, body {
 }
 
 #geroimg {
-    margin-left: -24.67%
+    margin-left: -92.5%
     /* make it animate to have margin 0 */
 }
 
 #pleasecenter {
     margin: auto;
-
 }
 
+
+.hideName {
+    display: none
+}
