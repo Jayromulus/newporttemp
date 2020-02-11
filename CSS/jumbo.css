@@ -1,0 +1,60 @@
+#geroimg, #flahimg {
+    vertical-align: baseline;
+    margin-right: 1%;
+}
+
+.display-4 {
+    white-space: nowrap;
+    /* margin: auto; */
+    font-size: 5em;
+    /* when page loads */
+    /* maybe make it animate outwards when you scroll down */
+    
+    /* ADD THIS TO ANIMATE */
+    display:inline-block;
+
+    /* GET RID OF THESE WHEN ANIMATING */
+    /* color: transparent; */
+    /* position: absolute; */
+    line-height: 6.5em;
+    
+    /* make it animate to the right color and position relative, also add margin auto */
+}
+
+#geroimg {
+    /* GET RID OF THIS WHEN ANIMATING */
+    /* margin-left: -92.5% */
+    
+    /* ADD THIS TO ANIMATE */
+    margin-left: -25%;
+    
+    /* make it animate to have margin 0 */
+}
+
+#pleasecenter {
+    margin: auto;
+}
+
+
+.hideName {
+    /* GET RID OF THIS WHEN ANIMATING */
+    /* display: none */
+}
+
+
+#flahimg {
+    /* ADD THIS TO ANIMATE */
+    margin-left: 15%
+}
+
+
+@media only screen and (max-width: 767px) {
+    .display-4{
+        line-height: 1.5em;
+        margin:auto;
+    }
+    #jerome {
+        margin-left: 1em;
+        margin-top: .25em;
+    }
+}

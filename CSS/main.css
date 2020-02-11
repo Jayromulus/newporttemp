@@ -1,0 +1,21 @@
+@import './projects.css';
+@import './jumbo.css';
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    color:white;
+    background-color: #5a5a5a;
+    overflow-x: hidden;
+    /* background-color: #ff99f7; */
+    font-family: 'Odibee Sans', cursive;
+}
+
+.row {
+    margin: 0;
+}
+.nav-item {
+    font-size: 1.5em;
+}
+
