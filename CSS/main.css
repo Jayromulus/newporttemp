@@ -1,13 +1,14 @@
 @import './projects.css';
 @import './jumbo.css';
+@import './scrollbar.css';
 
 html, body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    color:white;
-    background-color: #5a5a5a;
+    background-color: #271741;
     overflow-x: hidden;
+    color: white;
     /* background-color: #ff99f7; */
     font-family: 'Odibee Sans', cursive;
 }
@@ -15,7 +16,7 @@ html, body {
 .row {
     margin: 0;
 }
+
 .nav-item {
     font-size: 1.5em;
 }
-

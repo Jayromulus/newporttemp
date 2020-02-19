@@ -16,55 +16,118 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-light" style="background-color: #ff64f2">
+    <nav class="navbar navbar-light fixed-top" style="background-color: #ff64f2">
         <a class="navbar-brand" href="/">
-            <img src="./assets/JFblack.png" width="40" height="40" alt="navBrand">
+            <img src="./assets/JF.png" width="40" height="40" alt="navBrand">
         </a>
         <div class="navbar-nav flex-row ml-md-auto d-md-flex">
-            <a class="nav-item nav-link p-2 active" href="#">ABOUT<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link p-2" href="#projects">PROJECTS</a>
-            <a class="nav-item nav-link p-2" href="#">CONTACT</a>
+            <a class="nav-item nav-link p-2" style="color: white" href="#">ABOUT<span
+                    class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link p-2" style="color: white" href="#projects">PROJECTS</a>
+            <a class="nav-item nav-link p-2" style=" color: white" href="#">CONTACT</a>
         </div>
     </nav>
 
     <!-- JUMBOTRON TEMPORARY -->
-    <!-- <div class="jumbotron jumbotron-fluid" style="margin-bottom: 0; height: 50vh; color: black;"> -->
-    <div class="container" id="nameHover" style="height: 53.25vh; color: black;">
-        <div class="row">
-            <span id="pleasecenter">
-                <!-- style="width: 100vw"-->
-                <h1 class="display-4" id="jerome"><img id="geroimg" src="./assets/Jblack.png" height="150em" alt="J" /><span
-                        class="hideName">erome</span> </h1>
-                <h1 class="display-4"><img id="flahimg" src="./assets/Fblack.png" height="150em" alt="F" /><span
-                        class="hideName">laherty</span></h1>
-            </span>
-            <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+    <div class="jumbotron jumbotron-fluid main-jumbo">
+        <div class="container">
+            <div class="row">
+                <span id="pleasecenter">
+                    <!-- style="width: 100vw"-->
+                    <h1 class="display-4" id="jerome"><img id="geroimg" src="./assets/J.png" height="150em"
+                            alt="J" /><span class="hideName">erome</span> </h1>
+                    <h1 class="display-4"><img id="flahimg" src="./assets/F.png" height="150em" alt="F" /><span
+                            class="hideName">laherty</span></h1>
+                </span>
+                <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+            </div>
+            <div class="row">
+                <div class="col-4">
+
+                </div>
+                <div class="col-8">
+                    <h3>this is where the about me section is going to go. I am noit sure how long it will be. but
+                        hopefully it will end up being a few sentences somethig short and sweet but gets the piont
+                        across so that people know who i am. idk what is going to be here yet but I will update it later
+                        when I dont have 3 other prjects todo in the net ay and a half</h3>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- </div> -->
 
     <!-- PROJECTS SECTION -->
     <!-- <div class="container" id="projects"> -->
     <div class="row">
-        <div class="col-3 ghibli">
-            <div class="info-cover">
+        <!-- <div style="overflow:hidden"> -->
+        <div class="col-sm-12 col-md-3 ghibli">
+            <div class="info-cover" id="ghibliHover">
+                <p class="imageText" id="ghibliText">this is a test paragraph to see how this will show up on the page
+                </p>
+                <img src="assets/ghibli.png" id="ghibli" alt="ghibliProj" height="100%" width="100%" />
             </div>
         </div>
-        <div class="col-3 netflix">
-            <div class="info-cover">
+        <!-- </div> -->
+        <div class="col-sm-12 col-md-3 netflix">
+            <div class="info-cover" id="netflixHover">
+                <p class="imageText" id="netflixText">this is a test paragraph to see how this will show up on the page
+                </p>
+                <img src="assets/netflix.png" id="netflix" alt="netflixProj" height="100%" width="100%" />
             </div>
         </div>
-        <div class="col-3 mashr">
-            <div class="info-cover">
+        <div class="col-sm-12 col-md-3 mashr">
+            <div class="info-cover" id="mashrHover">
+                <p class="imageText" id="mashrText">this is a test paragraph to see how this will show up on the page
+                </p>
+                <img src="assets/mashr.png" id="mashr" alt="mashrProj" height="100%" width="100%" />
             </div>
         </div>
-        <div class="col-3 storefront">
-            <div class="info-cover">
+        <div class="col-sm-12 col-md-3 storefront">
+            <div class="info-cover" id="storefrontHover">
+                <p class="imageText" id="storefrontText">this is a test paragraph to see how this will show up on the
+                    page</p>
+                <img src="assets/storefront.png" id="storefront" alt="storefrontProj" height="100%" width="100%" />
             </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+            <form action="https://formspree.io/mbjonqro" method="POST">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="Email"
+                        aria-describedby="emailHelp" placeholder="Enter email">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small> -->
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="textarea" class="form-control" id="exampleInputPassword1" name="Message"
+                        placeholder="Input Message Here">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     </div>
     <!-- </div> -->
 
+    <!-- CONTACT FORM -->
+    <!-- <div class="container" style="height: 46.75vh">
+        
+
+        <form action="https://formspree.io/mbjonqro" method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" name="Email" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="textarea" class="form-control" id="exampleInputPassword1" name="Message" placeholder="Input Message Here">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div> -->
+
+    <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

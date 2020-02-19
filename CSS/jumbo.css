@@ -1,3 +1,16 @@
+.main-jumbo{
+    margin-bottom:0px;
+    height: 100vh;
+    /* color: black; */
+}
+/* style="margin-bottom: 0; height:  color: black;" */
+
+.jumbotron {
+    background-image: url('../assets/jumbobg5.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 #geroimg, #flahimg {
     vertical-align: baseline;
     margin-right: 1%;

@@ -15,8 +15,40 @@
 // });
 
 
-$(window).scroll(function(){            
-    $("div").css("margin-top", $(window).scrollTop())   
-});
+// $(window).scroll(function(){            
+//     $("div").css("margin-top", $(window).scrollTop())   
+// });
 
-console.log($(window).width);
+// console.log($(window).width);
+
+function a() {
+    document.getElementById('ghibliText').classList.toggle('textBackground');
+    // console.log(document.getElementById('ghibliText').classList)
+    // console.log("Hello")
+}
+document.getElementById('ghibliHover').addEventListener('mouseenter', a)
+document.querySelector('#ghibliHover').addEventListener('mouseleave', a)
+
+function b() {
+    document.getElementById('storefrontText').classList.toggle('textBackground');
+    // console.log(document.getElementById('ghibliText').classList)
+    // console.log("Hello")
+}
+document.getElementById('storefrontHover').addEventListener('mouseenter', b)
+document.querySelector('#storefrontHover').addEventListener('mouseleave', b)
+
+function c() {
+    document.getElementById('mashrText').classList.toggle('textBackground');
+    // console.log(document.getElementById('ghibliText').classList)
+    // console.log("Hello")
+}
+document.getElementById('mashrHover').addEventListener('mouseenter', c)
+document.querySelector('#mashrHover').addEventListener('mouseleave', c)
+
+function d() {
+    document.getElementById('netflixText').classList.toggle('textBackground');
+    // console.log(document.getElementById('ghibliText').classList)
+    // console.log("Hello")
+}
+document.getElementById('netflixHover').addEventListener('mouseenter', d)
+document.querySelector('#netflixHover').addEventListener('mouseleave', d)
