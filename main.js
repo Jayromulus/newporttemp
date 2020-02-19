@@ -52,3 +52,19 @@ function d() {
 }
 document.getElementById('netflixHover').addEventListener('mouseenter', d)
 document.querySelector('#netflixHover').addEventListener('mouseleave', d)
+
+function e() {
+    document.getElementById('netblueText').classList.toggle('textBackground');
+    // console.log(document.getElementById('ghibliText').classList)
+    // console.log("Hello")
+}
+document.getElementById('netblueHover').addEventListener('mouseenter', e)
+document.querySelector('#netblueHover').addEventListener('mouseleave', e)
+
+function f() {
+    document.getElementById('netredText').classList.toggle('textBackground');
+    // console.log(document.getElementById('ghibliText').classList)
+    // console.log("Hello")
+}
+document.getElementById('netredHover').addEventListener('mouseenter', f)
+document.querySelector('#netredHover').addEventListener('mouseleave', f)

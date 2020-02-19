@@ -3,7 +3,7 @@
     padding: 0
 }
 
-.ghibli, .netflix, .mashr, .storefront {
+.ghibli, .netflix, .mashr, .storefront, .netblue, .netred {
     overflow: hidden;
 }
 
@@ -29,18 +29,26 @@
 
 }
 
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #ff9ef7 ;
+}
+
 .info-cover:hover {
     background-color: rgba(255, 255, 255, .3);
 
     color: white;
-    transform: scale(1.5);
+    transform: scale(1.35);
     transition: all 1.25s ease;
-    filter: grayscale(1);
+    filter: grayscale(.5);
 }
 
 .imageText {
     position: absolute;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 20%;
     height: 55%;
     width: 60%;
@@ -53,4 +61,15 @@
     background-color: rgba(0,0,0,.75);
 }
 
+.netblue {
+    background-image: linear-gradient(to bottom right, #3276ff, #81abff);
+}
 
+.netred {
+    background-image: linear-gradient(to bottom right, #ff425b, #ff7385);
+}
+
+.my-form {
+    font-size: 1.25em;
+    background-image: linear-gradient(to bottom right, #a979f6, #ff9ef7);
+}
