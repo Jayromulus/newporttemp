@@ -16,16 +16,22 @@
     margin-right: 1%;
 }
 
+.jumboName {
+    text-align: center;
+    margin-top: 5%;
+    /* white-space: nowrap; */
+}
+
 .display-4 {
     white-space: nowrap;
     /* margin: auto; */
     font-size: 5em;
     /* when page loads */
     /* maybe make it animate outwards when you scroll down */
-    line-height: 6.5em;
+    /* line-height: 6.5em; */
     
     /* ADD THIS TO ANIMATE */
-    display:inline-block;
+    /* display:inline-block; */
 
     /* GET RID OF THESE WHEN ANIMATING */
     /* color: transparent; */
@@ -39,7 +45,7 @@
     /* margin-left: -92.5%; */
     
     /* ADD THIS TO ANIMATE */
-    margin-left: -25%;
+    /* margin-left: -25%; */
     
     /* make it animate to have margin 0 */
 }
@@ -57,7 +63,7 @@
 
 #flahimg {
     /* ADD THIS TO ANIMATE */
-    margin-left: 15%
+    /* margin-left: 15% */
 }
 
 /* ADD TJESE TO ANIMATE */
@@ -67,7 +73,16 @@
         margin:auto;
     }
     #jerome {
-        margin-left: 1em;
-        margin-top: .25em;
+        margin-left: .25em;
+        margin-top: .5em;
     }
 }
+
+@media (max-width: 576px) { 
+    #face {
+        margin: 0 12.5%;
+    }
+    .jumboName {
+        margin-left: -1em;
+    }
+ }

@@ -48,7 +48,7 @@ a:hover {
 
 .imageText {
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1.35em;
     margin: 20%;
     height: 55%;
     width: 60%;
@@ -73,3 +73,13 @@ a:hover {
     font-size: 1.25em;
     background-image: linear-gradient(to bottom right, #a979f6, #ff9ef7);
 }
+
+.resume {
+    background-image: linear-gradient(to bottom left, #a979f6, #ff9ef7);
+}
+
+@media (max-width: 576px) { 
+    .my-form {
+        height: 55vh
+    }
+ }
